@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grease Lightning Theatre Survey Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Grease Lightning Theatre Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us bring you better productions!</p>
+    </header>
+
+    <div class="Survey">
+      <div class="info">
+      <form id="survey-form">
+        <label id="name-label"> Name <input id="name" type="text" placeholder="Sandra Dee" required></label>
+        <label id="email-label"> Email <input id="email" type="email" placeholder="Greaser@Rydell.com" required></label>
+        <label id="number-label">Age <input id="number" type="number" min="1" max="120" placeholder="16"></label>
+      </form>
+    </div>
+
+    <div class="job">
+      <form id="survey-form">
+        <h2 class="question">What option best describes you?</h2>
+        <select id="dropdown">
+          <option>Choose one</option>
+          <option>Actor</option>
+          <option>Stage Crew</option>
+          <option>Audience Member</option>
+          <option>Manager</option>
+        </select>
+      </form>
+    </div>
+
+    <div class="recommend">
+      <form id="survey-form">
+        <h2 class="question">Would you recommend Grease Lightning Theatre to a friend?</h2>
+        <div class="answer">
+        <label><input type="radio" name="button" value="button" class="inline"/>Definitely</label>
+        <label><input type="radio" name="button" value="button"class="inline"/>Maybe</label>
+        <label><input type="radio" name="button" value="button"class="inline"/>Not sure</label>
+        </div>
+      </form>
+    </div>
+
+    <div class="improvement">
+      <form id="survey-form">
+        <h2 class="question">What would you like to see improved?</h2>
+        <label> (check all that apply)</label>
+        <div class="answer">
+          <label><input type="checkbox" value="checkbox">Set Design</label>
+          <label><input type="checkbox" value="checkbox">Choreography</label>
+          <label><input type="checkbox" value="checkbox">Stage Direction</label>
+          <label><input type="checkbox" value="checkbox">Musical Choice</label>
+          <label><input type="checkbox" value="checkbox">Dancing</label>
+          <label><input type="checkbox" value="checkbox">Singing</label>
+          <label><input type="checkbox" value="checkbox">Acting</label>
+        </div>
+      </form>
+    </div>
+
+    <div class="favorite">
+      <form id="survey-form">
+        <h2 class="question">What musical was your favorite?</h2>
+        <select id="dropdown">
+          <option>Choose one</option>
+          <option>Honk!</option>
+          <option>Grease</option>
+          <option>Phantom of the Opera</option>
+          <option>The Producers</option>
+        </select>
+      </form>
+    </div>
+
+    <div class="return">
+      <form id="survey-form">
+        <h2 class="question">Will you return to Grease Lightning Theatre?</h2>
+        <div class="answer">
+          <label><input type="radio" name="button" class="inline" value="button"/>Definitely</label>
+          <label><input type="radio" name="button" class="inline" value="button"/>Maybe</label>
+          <label><input type="radio" name="button" class="inline" value="button"/>Not sure</label>
+        </div>
+      </form>
+    </div>
+
+    <div class="comment">
+      <form id="survey-form">
+        <h2>Additional Comments</h2>
+        <textarea name="Comments" rows="5" cols="30" placeholder="I would love to see..."></textarea> 
+      </form>
+      </div>
+
+      <div class="submit">
+      <form id="survey-form">
+        <input type="submit" id="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+
+    </div>
+  </body> 
+</html>
